@@ -40,4 +40,11 @@ td#c6{
     border-radius: 50%;
 }
 
+td#c8{
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
 
