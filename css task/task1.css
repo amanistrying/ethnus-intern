@@ -1,0 +1,9 @@
+#tab1{
+    border-radius: 10px;
+    border-color: black;
+}
+
+#tab1 th, #tab1 td{
+    border-radius: 10px;
+    border-color: black;
+}
