@@ -1,7 +1,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.25rem;
     color: rgb(144, 25, 104);
 }
@@ -20,11 +20,11 @@ a {
 
 .container{
     height: 30rem;
-    width: 40rem;
+    width: 33rem;
     background-color: rgb(204, 216, 70);
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 1rem;
 }
 
 .left{
@@ -59,4 +59,8 @@ a {
 
 hr{
     border-color: rgb(144, 25, 104);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
 }
