@@ -2,7 +2,7 @@ html,body{
     height: 100%;
     width: 100%;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.35rem;
+    font-size: 1.2rem;
 }
 
 body{
@@ -11,8 +11,8 @@ body{
     align-items: center;
 }
 .container-1{
-    height: 28rem;
-    width: 42rem;
+    height: 80%;
+    width: 70%;
     background-color: #837177;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ body{
     
 }
 .container-2{
-    height: 24rem;
+    height: 92%;
     width: 32rem;
     background-color: #3c2f34;
     display: flex;
@@ -42,6 +42,8 @@ input[type=tel],
 input[type=password]{
     width: 10rem;
     height: 1.2rem;
+    padding: 2px;
+    margin: 5px;
 }
 
 button{
