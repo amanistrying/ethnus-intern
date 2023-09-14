@@ -30,33 +30,6 @@
             margin: 0;
         }
 
-        .menu-list {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        .menu-list li {
-            margin: 10px;
-        }
-
-        .menu-list li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            padding: 10px 20px;
-            border-radius: 5px;
-            background-color: #fff;
-            transition: background-color 0.3s ease;
-        }
-
-        .menu-list li a:hover {
-            background-color: #333;
-            color: #fff;
-        }
-
         .task-panel {
             display: flex;
             justify-content: center;
@@ -66,28 +39,51 @@
 
         .task-card {
             background-color: #fff;
-            border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
             padding: 20px;
-            width: 300px;
-            margin: 10px;
+            width: 50%; 
         }
 
-
+        /* Task navigation styles */
         .task-navigation {
-            list-style-type: none;
-            padding: 0;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            justify-content: center;
         }
 
-        .task-navigation li {
-            margin: 10px 0;
+        .task-navigation h3 {
+            margin: 0;
         }
 
-        .task-navigation li a {
+        .task-navigation .task-box {
+            background-color: #ffffff;
+            border: 1px solid #a7a7a7;
+            border-radius: 3px;
+            padding: 10px;
+            margin: 5px;
+            transition: transform 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        a {
             text-decoration: none;
             color: #333;
-            font-weight: bold;
         }
+        
+        .task-navigation .task-box:hover {
+            transform: scale(1.1);
+            background-color: black;
+        }
+        
+        .task-navigation .task-box:hover a {
+            color: #fff;
+        }
+        
     </style>
 </head>
 <body>
@@ -100,26 +96,53 @@
     <main>
         <div class="task-panel">
             <div class="task-card">
-                <h3>HTML Tasks</h3>
-                <ul class="task-navigation">
-                    <li><a href="./task-1.html">Task 1</a></li>
-                    <li><a href="./task-2.html">Task 2</a></li>
-                    <li><a href="./task-3.html">Task 3</a></li>
-                    <li><a href="./task-4.html">Task 4</a></li>
-                    <li><a href="./task-5.html">Task 5</a></li>
-                </ul>
+                <center><h1>HTML Tasks</h1></center>
+                <div class="task-navigation">
+                    <div class="task-box">
+                        <a href="./task-1.html">Task 1</a>
+                    </div>
+                    <div class="task-box">
+                        <a href="./task-2.html">Task 2</a>
+                    </div>
+                    <div class="task-box">
+                        <a href="./task-3.html">Task 3</a>
+                    </div>
+                    <div class="task-box">
+                        <a href="./task-4.html">Task 4</a>
+                    </div>
+                    <div class="task-box">
+                        <a href="./task-5.html">Task 5</a>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <div class="task-panel">
             <div class="task-card">
-                <h3>CSS Tasks</h3>
-                <ul class="task-navigation">
-                    <li><a href="./css task/task1.html">Task 1</a></li>
-                    <li><a href="./css task/task2.html">Task 2</a></li>
-                    <li><a href="./css task/task3.html">Task 3</a></li>
-                    <li><a href="./css task/task4.html">Task 4</a></li>
-                    <li><a href="./css task/task5.html">Task 5</a></li>
-                    <li><a href="./css task/task6.html">Task 6</a></li>
-                    <li><a href="./css task/task7.html">Task 7</a></li>
-                </ul>
+                <center><h1>CSS Tasks</h1></center>
+                <div class="task-navigation">
+                    <div class="task-box">
+                        <a href="./css%20task/task1.html">Task 1</a>
+                    </div>
+                    <div class="task-box">
+                        <a href="./css%20task/task2.html">Task 2</a>
+                    </div>
+                    <div class="task-box">
+                        <a href="./css%20task/task3.html">Task 3</a>
+                    </div>
+                    <div class="task-box">
+                        <a href="./css%20task/task4.html">Task 4</a>
+                    </div>
+                    <div class="task-box">
+                        <a href="./css%20task/task5.html">Task 5</a>
+                    </div>
+                    <div class="task-box">
+                        <a href="./css%20task/task6.html">Task 6</a>
+                    </div>
+                    <div class="task-box">
+                        <a href="./css%20task/task7.html">Task 7</a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
