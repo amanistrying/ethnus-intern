@@ -6,7 +6,7 @@ body{
 .sidebar a{
     position: absolute;
     left: -72px;
-    transition: 0.3s;
+    transition: 0.5s;
     width: 80px;
     font-size: 20px;
     border-radius: 5px;
