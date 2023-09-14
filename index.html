@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Raleway:wght@400;700&family=Rubik:wght@400;700&display=swap">
     <title>Index</title>
     <style>
-        /* General styles for all screen sizes */
         body {
             font-family: 'Rubik', sans-serif;
             background-color: #f0f0f0;
@@ -66,14 +65,13 @@
             font-size: 40px;
         }
 
-        /* Task navigation styles */
         .task-navigation {
             display: flex;
             align-items: center;
             align-content: center;
             text-align: center;
             justify-content: center;
-            flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+            flex-wrap: wrap;
         }
 
         .task-navigation h3 {
@@ -92,7 +90,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-grow: 1; /* Allow items to grow and occupy available space */
+            flex-grow: 1;
         }
 
         a {
@@ -109,26 +107,25 @@
             color: #fff;
         }
 
-        /* Media query for screens smaller than 768px (typical smartphones) */
         @media (max-width: 768px) {
             .task-card {
-                width: 90%; /* Adjust the width for smaller screens */
+                width: 90%; 
             }
 
             .navbar h1 {
-                font-size: 30px; /* Reduce font size for the header */
+                font-size: 30px;
             }
 
             .navbar h2 {
-                font-size: 20px; /* Reduce font size for the header */
+                font-size: 20px;
             }
 
             .task-navigation .task-box {
-                width: 45%; /* Adjust the width of task boxes for smaller screens */
+                width: 45%;
             }
 
             .task-panel h1 {
-                font-size: 30px; /* Reduce font size for task headings */
+                font-size: 30px;
             }
         }
     </style>
