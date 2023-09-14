@@ -1,25 +1,28 @@
-html,body{
+html, body {
     height: 100%;
     width: 100%;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.2rem;
+    margin: 0; /* Add this line to remove default margin */
+    padding: 0; /* Add this line to remove default padding */
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container-1{
+
+.container-1 {
     height: 80%;
     width: 70%;
     background-color: #837177;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-.container-2{
+
+.container-2 {
     height: 92%;
     width: 32rem;
     background-color: #3c2f34;
@@ -28,29 +31,35 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 0px;
+    padding: 0;
 }
 
-label{
+label {
     padding-inline: 1rem;
     padding-block: 0.2rem;
 }
 
-input[type=text],
-input[type=email],
-input[type=tel],
-input[type=password]{
-    width: 10rem;
-    height: 1.2rem;
-    padding: 2px;
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 6px;
     margin: 5px;
 }
 
-button{
-    height: 1.8rem;
-    width: 22rem;
+button {
+    padding: 6px;
+    width: 400px;
     font-size: 1.2rem;
     margin-top: 0.5rem;
     border-radius: 0.4rem;
     color: #3c2f34;
+}
+
+button:hover {
+    background-color: #3c2f34;
+    color: #ffffff; 
 }
