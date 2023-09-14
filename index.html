@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Raleway:wght@400;700&family=Rubik:wght@400;700&display=swap">
     <title>Index</title>
     <style>
+        /* General styles for all screen sizes */
         body {
-            font-family: 'Rubik', sans-serif;;
+            font-family: 'Rubik', sans-serif;
             background-color: #f0f0f0;
             margin: 0;
             padding: 0;
@@ -23,7 +24,6 @@
             padding: 15px 0;
             text-align: center;
             box-shadow: 0 0.25px 0px rgba(0, 0, 0, 0.2);
-            
         }
 
         .navbar {
@@ -58,11 +58,11 @@
             background-color: #fff;
             box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
             padding: 15px;
-            width: 50%; 
+            width: 50%;
             margin-top: 10px;
         }
 
-        .task-panel h1{
+        .task-panel h1 {
             font-size: 40px;
         }
 
@@ -73,6 +73,7 @@
             align-content: center;
             text-align: center;
             justify-content: center;
+            flex-wrap: wrap; /* Ensure items wrap on smaller screens */
         }
 
         .task-navigation h3 {
@@ -91,23 +92,45 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-grow: 1; /* Allow items to grow and occupy available space */
         }
-
 
         a {
             text-decoration: none;
             color: #333;
         }
-        
+
         .task-navigation .task-box:hover {
             transform: scale(1.1);
             background-color: black;
         }
-        
+
         .task-navigation .task-box:hover a {
             color: #fff;
         }
-        
+
+        /* Media query for screens smaller than 768px (typical smartphones) */
+        @media (max-width: 768px) {
+            .task-card {
+                width: 90%; /* Adjust the width for smaller screens */
+            }
+
+            .navbar h1 {
+                font-size: 30px; /* Reduce font size for the header */
+            }
+
+            .navbar h2 {
+                font-size: 20px; /* Reduce font size for the header */
+            }
+
+            .task-navigation .task-box {
+                width: 45%; /* Adjust the width of task boxes for smaller screens */
+            }
+
+            .task-panel h1 {
+                font-size: 30px; /* Reduce font size for task headings */
+            }
+        }
     </style>
 </head>
 <body>
