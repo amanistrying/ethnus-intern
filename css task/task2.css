@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .navbar {
@@ -11,12 +11,11 @@ body {
 
 .navbar ul {
     list-style-type: none;
-    padding: 0;  
-    height: 200px;
+    padding: 0px;  
 }
 
 .navbar li {
-    padding: 15px;
+    padding: 0px;
     text-align: left;
 }
 
@@ -26,9 +25,14 @@ body {
     font-size: 18px;
     display: block;
     transition: 0.3s;
+    padding: 10px;
 }
 
 .navbar a:hover {
     background-color: orange;
     height: 100%;
+}
+
+.hnavbar{
+    background-color: white;
 }
