@@ -30,9 +30,19 @@ body {
 
 .navbar a:hover {
     background-color: orange;
+    color: white;
     height: 100%;
 }
 
 .hnavbar{
-    background-color: white;
+    background-color: lightgray;
+    width: fit-content;
+}
+
+.hnavbar li{
+    display: inline-block;
+}
+
+.hnavbar a:hover{
+    background-color: gray;
 }
