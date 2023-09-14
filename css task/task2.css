@@ -41,6 +41,7 @@ body {
 
 .hnavbar li{
     display: inline-block;
+    border-right:1px blue solid;
 }
 
 .hnavbar a:hover{
